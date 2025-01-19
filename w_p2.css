@@ -1,0 +1,120 @@
+/* تنسيقات عامة */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+  .container١ {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  /* الرأس */
+  .header {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    /* align-items: center;
+    border-bottom: 1px solid ; */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  blog-section
+  /* قسم البطاقات */
+  .blog-section {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    background: url('https://file.notion.so/f/f/f2423ba5-2aa1-470b-9553-643a60348e5f/d38a1fa4-2f35-42ee-8785-80755860a578/bg.jpg?table=block&id=17d5df43-0632-80d1-8f73-f5f56d76cf76&spaceId=f2423ba5-2aa1-470b-9553-643a60348e5f&expirationTimestamp=1737208800000&signature=TXI-YBMVYOqyMyCyeFa34qobLB-Y3fmWShcByv0kdp4&downloadName=bg.jpg') no-repeat center/cover;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+    /*  */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .blog-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .blog-content {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .category {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: gray;
+  }
+  
+  .read-more {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  /* التذييل */
+  .footer {
+    background: #111;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .footer h3,
+  .footer h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
+  .credits {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
