@@ -44,7 +44,7 @@
   
   /* قسم البحث */
   .search-section {
-    background: url("bg.jpg") no-repeat center/cover;
+    background: url("bg.jpg") no-repeat center/cover; 
     color: white;
     text-align: center;
     padding: 5rem 1rem;
